@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>magic ball</title>
+    <link rel="icon" href="./imagen/favicon.png" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="ball">
+          <img class="ball__base" src="./imagen/ball.png" alt="ball" />
+          <div class="ball_hole">
+            <img
+              class="ball__hole"
+              src="./imagen/ball-hole.png"
+              alt="ball_hole"
+            />
+            <p id="text">Получите ответ</p>
+          </div>
+          <div class="down">
+            <form action="">
+              <input
+                class="question"
+                id="input"
+                placeholder="    задайте вопрос"
+                type="вопрос"
+              />
+              <input class="btn" value="?" type="submit" id="button" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
